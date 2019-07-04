@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - hexo > lodash:
+        patched: '2019-07-04T01:14:54.075Z'
+    - hexo > warehouse > lodash:
+        patched: '2019-07-04T01:14:54.075Z'
+    - hexo-generator-baidu-sitemap > hexo > lodash:
+        patched: '2019-07-04T01:14:54.075Z'
+    - hexo-generator-baidu-sitemap > hexo > warehouse > lodash:
+        patched: '2019-07-04T01:14:54.075Z'
